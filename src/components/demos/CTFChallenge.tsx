@@ -183,7 +183,7 @@ export function CTFChallenge() {
                   className="flex items-center gap-2 text-xs text-muted-foreground hover:text-secondary transition-colors font-mono"
                 >
                   <Lightbulb className="w-4 h-4" />
-                  {showHints.has(challenge.id) ? "Hide Hint" : "Mostrar dica"}
+                  {showHints.has(challenge.id) ? "Esconder dica" : "Mostrar dica"}
                 </button>
 
                 {showHints.has(challenge.id) && (
